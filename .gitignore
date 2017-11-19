@@ -1,0 +1,52 @@
+*.css.map
+
+/node_modules
+node_modules
+
+/.sass-cache
+.sass-cache
+
+/.sass-cache/*
+.sass-cache/*
+
+/application/cache/
+/application/cache/*
+
+/application/logs/
+/application/logs/*
+
+*.htaccess
+/.htpasswd
+/.htaccess
+
+/uploads/
+/uploads/*
+
+# Dreamweaver files
+/_notes/
+/_notes/*
+
+
+# Automatically added by GIT
+
+.DS_Store
+
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+
+
+# -----------------------------------------------------------------------------------------
+# The following Folders and its content need to be uploaded manually coz its not being tracked by GIT.
+# -----------------------------------------------------------------------------------------
+
+# /application/cache/
+# /application/logs/
+# /.htpasswd
+# /.htaccess
+# /uploads/
+# /uploads/*
